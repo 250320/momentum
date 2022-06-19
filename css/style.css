@@ -1,0 +1,114 @@
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+}
+.hidden
+{
+    display: none;
+}
+.weatherCSS
+{    color: white;
+    text-align: right;
+    position:fixed;
+    top:20px;
+    margin-right:auto;
+    font-family: 'SF_HambakSnow';
+
+}
+#clock {
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+    font-size: 110px;
+    font-family: 'SF_HambakSnow';
+    filter: drop-shadow(0 0 0.4rem rgba(95, 95, 95, 0.425));
+}
+
+#greeting{
+    text-align: center;
+    margin-top: -80px;
+    color: white;
+    font-size: 40px;
+    font-family: 'SF_HambakSnow';
+    filter: drop-shadow(0 0 0.4rem rgba(36, 36, 36, 0.425));
+
+}
+
+
+#login-form{
+    margin-top: -60px;
+    text-align:center;
+    color:white;
+
+}
+    #login-form input:first-child{
+        text-align: center;
+        color:white;
+        font-size:1.3rem;
+        padding: 10px;
+        width: 240px;
+        background-color: rgba(255,255,255,0.2);
+        border:none;
+        transition: all, 0.4s;
+    }
+        #login-form input:first-child:hover{
+            background-color: rgba(255,255,255,0.4);
+        }   
+        #login-form input:hover::-webkit-input-placeholder{ /*placeholder color change*/
+            color: rgb(50, 50, 50);
+        }
+        #login-form input:first-child:focus{
+            outline:none;
+            border-bottom: 1px solid white;
+            background-color:rgba(0,0,0,0);
+        }        
+
+
+
+
+#quote {
+    color: white;
+    text-align: center;
+    position:fixed;
+    bottom:20px;
+    margin-left: center;
+    font-family: 'SF_HambakSnow';
+}
+
+
+input {
+    text-align: center;
+    font-family: 'SF_HambakSnow';
+
+    width: 30rem;
+    height: 2rem;
+    line-height: 3rem;
+    padding-left: 0.5rem;
+    padding: 0.2rem;
+    font-size: 110%;
+
+    color: white;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 0.15rem solid #fff;
+    filter: drop-shadow(0 0 0.2rem rgba(36, 36, 36, 0.425));
+  }
+  input::placeholder {
+    color: white;
+  }
+  
+  @font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
